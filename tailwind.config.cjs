@@ -11,9 +11,17 @@ module.exports = {
     extend: {
       colors: {
         // add custom colors (outside of tailwind)
+        primary: "#002B2B",
+        secondary: "#444444",
+        dark:  "#000000",
+        darkgreen:"#005555",
+        light_green: "#F0F5F5"
+        
       },
       spacing: {
         // add custom spacings (outside of tailwind)
+        base: "20px",
+        vertical: "16px",
       },
       borderRadius: {
         // Use this for custom border radius
@@ -27,6 +35,10 @@ module.exports = {
       },
       fontSize: {
         // Add custom font sizes (outside of tailwind)
+          xs: "12px",
+          md: "14px",
+          lg: "16px",
+        
       },
       letterSpacing: theme => ({
         ...theme("width"),
@@ -37,7 +49,7 @@ module.exports = {
       maxWidth: theme => ({
         ...theme("width"),
         xs: "160px",
-        sm: "192px",
+        sm: "209px",
         md: "224px",
         lg: "256px",
         xl: "288px",
